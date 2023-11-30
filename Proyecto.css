@@ -4,6 +4,8 @@
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 
+
+
 header{
     background: url(img/logo.jpg);
     background-size: cover;
@@ -17,4 +19,83 @@ header h1{
     font-size: 80px;
     color:rgb(102, 168, 172);
     padding: 50px 0;
+}
+
+
+header p{
+    text-align: center;
+    font-size: 40px;
+    color:rgb(3, 144, 151);
+    padding: 50px 0;
+}
+
+
+header .menu {
+    position:fixed;
+    width: 100%;
+    display:flex;
+    justify-content:space-between;
+}
+
+header .menu a{
+    text-align: right;
+    list-style: none;
+    font-size: 20px;
+    color:rgb(5, 38, 41);
+    padding: 10px 0;
+}
+
+
+  
+/*--------------------------------*/
+.contenido{
+    max-width: 1300px;
+    padding: 50px;
+    margin:auto;
+    display:contents;
+    justify-content:center;
+    contain:paint;
+}
+
+.contenido .container  h2{
+    text-align:center;
+    font-size: 40px;
+    color:rgb(1, 29, 31);
+    padding: 15px 0;
+}
+
+.contenido .container  p{
+    text-align: center;
+    font-size: 20px;
+    color:rgb(0, 40, 43);
+    padding: 10px 0;
+}
+
+/*--------------------------------------*/
+.contenido .contenido-bibicletas{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap:20px;
+    grid-row-gap: 20px;
+    width: 100%;
+    transition: .2s;
+}
+
+.contenido .contenido-bibicletas .bici{
+    max-width: 200px;
+    margin: auto;
+    border: 1px solid rgb(0, 65, 95);
+    border-radius: 10px;
+    padding: 20px;
+    transition: .3s;
+}
+
+.contenido .contenido-bibicletas .bici .bk{
+    width: 100%;
+}
+
+.contenido .contenido-bibicletas .bici:hover{
+    box-shadow: 0 0 10px rgb(3, 74, 141);
+    scale: 1.05;
 }
