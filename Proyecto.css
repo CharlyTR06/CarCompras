@@ -8,11 +8,18 @@
 
 header{
     background: url(img/logo.jpg);
-    background-size: cover;
-    /*background-position:center;*/
-    height: 900px;
+    background-size:auto;
+    background-position:center;
+    background-repeat: no-repeat;
+    border:2px solid rgb(6, 51, 68);
+    /*height: 500px;*/
+    text-align:right;
+    line-height: 85px;
+   
 }
 
+
+/*-------------------------------*/
 
 header h1{
     text-align: center;
@@ -25,27 +32,82 @@ header h1{
 header p{
     text-align: center;
     font-size: 40px;
-    color:rgb(3, 144, 151);
+    color:rgb(161, 225, 231);
     padding: 50px 0;
 }
 
 
-header .menu {
+/*header .info .nav {
     position:fixed;
     width: 100%;
     display:flex;
     justify-content:space-between;
 }
 
-header .menu a{
+ .info nav ul li a{
     text-align: right;
     list-style: none;
     font-size: 20px;
     color:rgb(5, 38, 41);
     padding: 10px 0;
+}*/
+
+
+
+header nav{
+    width: 100%;
+}
+
+header nav ul{
+    list-style: none;
+    width: 100%;
+    /*overflow: hidden;*/
+   
+}
+
+header nav ul li{
+    list-style: none;
+    display: inline-block;    
 }
 
 
+header nav ul{
+    position:absolute;
+    width: 100%;
+    display:flex;
+    justify-content:center;
+
+}
+
+header nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 100px  20px;
+    /*color:rgb(5, 38, 41);*/
+    color:rgb(1, 10, 10);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
   
 /*--------------------------------*/
 .contenido{
