@@ -11,7 +11,7 @@ header{
     background-size:auto;
     background-position:center;
     background-repeat: no-repeat;
-    border:2px solid rgb(6, 51, 68);
+    border:3px dashed rgb(6, 51, 68);
     /*height: 500px;*/
     text-align:right;
     line-height: 85px;
@@ -36,24 +36,6 @@ header p{
     padding: 50px 0;
 }
 
-
-/*header .info .nav {
-    position:fixed;
-    width: 100%;
-    display:flex;
-    justify-content:space-between;
-}
-
- .info nav ul li a{
-    text-align: right;
-    list-style: none;
-    font-size: 20px;
-    color:rgb(5, 38, 41);
-    padding: 10px 0;
-}*/
-
-
-
 header nav{
     width: 100%;
 }
@@ -62,14 +44,12 @@ header nav ul{
     list-style: none;
     width: 100%;
     /*overflow: hidden;*/
-   
 }
 
 header nav ul li{
     list-style: none;
     display: inline-block;    
 }
-
 
 header nav ul{
     position:absolute;
@@ -83,40 +63,21 @@ header nav ul li a{
     font-size: 20px;
     text-decoration: none;
     display: inline-block;
-    padding: 100px  20px;
+    padding: 100px  70px;
     /*color:rgb(5, 38, 41);*/
     color:rgb(1, 10, 10);
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
   
 /*--------------------------------*/
 .contenido{
-    max-width: 1300px;
+    max-width: 100px;
     padding: 50px;
     margin:auto;
     display:contents;
-    justify-content:center;
-    contain:paint;
+    justify-content:space-between;
+    /*contain:paint;*/
 }
 
 .contenido .container  h2{
@@ -135,29 +96,64 @@ header nav ul li a{
 
 /*--------------------------------------*/
 .contenido .contenido-bibicletas{
-    margin-top: 10px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    grid-gap:20px;
-    grid-row-gap: 20px;
-    width: 100%;
-    transition: .2s;
+    margin-top:10px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+
+    grid-gap:30px;
+    grid-row-gap:30px;
+    width:100%;
+    transition:.2s;
 }
 
 .contenido .contenido-bibicletas .bici{
     max-width: 200px;
-    margin: auto;
-    border: 1px solid rgb(0, 65, 95);
-    border-radius: 10px;
-    padding: 20px;
-    transition: .3s;
+    margin:auto;
+    border: 3px dashed rgb(2, 46, 71);
+    /*border: rgb(4, 64, 99)*/
+    border-radius: 20px;
+    padding:25px;
+    transition:.2s;
 }
 
 .contenido .contenido-bibicletas .bici .bk{
-    width: 100%;
+    width:100%;
 }
 
 .contenido .contenido-bibicletas .bici:hover{
-    box-shadow: 0 0 10px rgb(3, 74, 141);
-    scale: 1.05;
+    box-shadow: 0 0 1em rgb(3, 74, 141); /*efectos de sombra alrededor del marco*/
+    scale:1.25;
+}
+
+
+.contenido .contenido-bibicletas .bici .precio{
+    display: block;
+    text-align:right;
+    font-weight: bold;
+    color: rgb(8, 98, 207);
+    font-size: 15px;
+}
+
+
+.contenido .contenido-bibicletas .bici .bici1{
+    display:block;
+    font-weight:lighter;
+    text-align:center;
+    text-transform:capitalize;
+}
+
+.contenido .contenido-bibicletas .bici .boton{
+    display:block;
+    border:none;
+    margin:8px auto;
+    padding:5px 10px;
+    border-radius:20px;
+    background-color: rgb(16, 57, 117);
+    color: white;
+    cursor: pointer;
+}
+
+.contenido .contenido-bibicletas .bici .bici1{
+    color: rgb(18, 66, 122);
+    font-weight: bold;
 }
