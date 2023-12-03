@@ -19,7 +19,8 @@ header{
 }
 
 
-/*-------------------------------*/
+/*----------------------------------------------------------------------------*/
+
 
 header h1{
     text-align: center;
@@ -48,11 +49,12 @@ header nav ul{
 
 header nav ul li{
     list-style: none;
-    display: inline-block;    
+    display: inline-block;  
+    
 }
 
 header nav ul{
-    position:absolute;
+    position:initial;
     width: 100%;
     display:flex;
     justify-content:center;
@@ -63,14 +65,16 @@ header nav ul li a{
     font-size: 20px;
     text-decoration: none;
     display: inline-block;
-    padding: 100px  70px;
+    padding: 45px  50px;
     /*color:rgb(5, 38, 41);*/
-    color:rgb(1, 10, 10);
+    /*color:rgb(1, 10, 10);*/
+    color:rgb(26, 91, 97);
 }
 
 
   
-/*--------------------------------*/
+/*----------------------------------------------------------------------------*/
+
 .contenido{
     max-width: 100px;
     padding: 50px;
@@ -94,7 +98,8 @@ header nav ul li a{
     padding: 10px 0;
 }
 
-/*--------------------------------------*/
+/*----------------------------------------------------------------------------*/
+
 .contenido .contenido-bibicletas{
     margin-top:10px;
     display:grid;
@@ -157,3 +162,65 @@ header nav ul li a{
     color: rgb(18, 66, 122);
     font-weight: bold;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------------*/
+
+@media screen and (max-width: 850px) {
+    .contenido {
+      display: block;
+    }
+    .contenido-bibicletas{
+        width: 100% !important;
+    }
+    .carro1{
+        width: 100%;
+    }
+  }
