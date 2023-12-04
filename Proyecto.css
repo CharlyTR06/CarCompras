@@ -163,64 +163,39 @@ header nav ul li a{
     font-weight: bold;
 }
 
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+.carro1{
+    width: 10%;
+    margin-top: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: auto;
+    position:initial;
+    
+}
+.carro1 .headercarro{
+    background-color: rgb(6, 51, 68);
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/*----------------------------------------------------------------------------*/
+.carro2{
+    background-color: rgb(26, 91, 97);
+    padding: 30px;
+}
+.carro2 .carro3{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight:lighter;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*----------------------------------------------------------------*/
-
-@media screen and (max-width: 850px) {
-    .contenido {
-      display: block;
-    }
-    .contenido-bibicletas{
-        width: 100% !important;
-    }
-    .carro1{
-        width: 100%;
-    }
-  }
