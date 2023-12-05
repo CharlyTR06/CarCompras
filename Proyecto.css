@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +10,7 @@ header{
     background-size:auto;
     background-position:center;
     background-repeat: no-repeat;
-    border:3px dashed rgb(6, 51, 68);
+    border:3px dashed rgb(161, 225, 231);
     text-align:right;
     line-height: 85px;
 }
@@ -21,6 +22,8 @@ header h1{
     padding: 50px 0;
 }
 header p{
+    font-family: "Montserrat";
+    font-weight: 900;
     text-align: center;
     font-size: 40px;
     color:rgb(161, 225, 231);
@@ -34,6 +37,7 @@ header nav ul{
     width: 100%;
 }
 header nav ul li{
+    
     list-style: none;
     display: inline-block;  
     
@@ -49,12 +53,11 @@ header nav ul li a{
     text-decoration: none;
     display: inline-block;
     padding: 45px  50px;
-    /*color:rgb(5, 38, 41);*/
-    /*color:rgb(1, 10, 10);*/
-    /*color:rgb(26, 91, 97);*/
-    color: black;
+    color: rgb(104, 227, 238);
     font-weight: bold;
     font-weight:lighter;
+    font-family: "Montserrat";
+    font-weight: 500;
 }
 /*----------------------------------------------------------------------------*/
 .contenido{
@@ -66,13 +69,17 @@ header nav ul li a{
     /*contain:paint;*/
 }
 .contenido .container  h2{
+    font-family: "Montserrat";
+    font-weight: 900;
     text-align:center;
     font-size: 40px;
-    color:rgb(1, 29, 31);
+    color:rgb(161, 225, 231);
     padding: 15px 0;
 }
 
 .contenido .container  p{
+    font-family: "Montserrat";
+    font-weight: 400;
     text-align: center;
     font-size: 20px;
     color:rgb(0, 40, 43);
@@ -83,7 +90,6 @@ header nav ul li a{
     margin-top:10px;
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
-
     grid-gap:30px;
     grid-row-gap:30px;
     width:100%;
@@ -92,7 +98,7 @@ header nav ul li a{
 .contenido .contenido-bibicletas .bici{
     max-width: 200px;
     margin:auto;
-    border: 3px dashed rgb(2, 46, 71);
+    border: 3px dashed rgb(161, 225, 231);
     /*border: rgb(4, 64, 99)*/
     border-radius: 20px;
     padding:25px;
