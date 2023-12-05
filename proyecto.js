@@ -34,7 +34,7 @@ function agregarcar(event){
     let imgSrc = bici.getElementsByClassName('bk')[0].src;
     console.log(imgSrc);
     agregarcarro(titulo, precio, imgSrc);
-    vistacar();
+    vistarcar();
 }
 //-----------------------------------------------------------------------------------
 function vistarcar(){
